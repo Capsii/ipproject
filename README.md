@@ -87,23 +87,7 @@ The main workflow is:
 ## Screenshots
 
 The project includes a small set of real captures from the running Tkinter
-application. Additional UI screenshots can be added later once the remaining
-screens are exercised on a local Windows machine.
-
-| Screen | Capture status |
-|---|---|
-| Welcome | `screenshots/welcome.png` — pending capture |
-| Login | ![Login screen](screenshots/login.png) |
-| Main dashboard/menu | ![Dashboard](screenshots/dashboard.png) |
-| Medicine stock listing | `screenshots/medicine-stock.png` — pending capture |
-| Add/update medicine form | `screenshots/medicine-form.png` — pending capture |
-| Employee management | `screenshots/employee-management.png` — pending capture |
-| Customer management | `screenshots/customer-management.png` — pending capture |
-| Expired medicine listing | `screenshots/expiry-list.png` — pending capture |
-| Billing with sample items | `screenshots/billing.png` — pending capture |
-| Generated bill/receipt | `screenshots/receipt.png` — pending capture |
-| Stock graph | `screenshots/stock-graph.png` — pending capture |
-| Sales/profit-loss graph | `screenshots/sales-report.png` — pending capture |
+application. 
 
 The screenshots above are a mix of actual images and honest placeholders. Any
 pending entries should be captured locally on a Windows desktop before the
