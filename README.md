@@ -56,13 +56,13 @@ The main workflow is:
 
 ## Technologies
 
-| Technology | Use |
-|---|---|
-| Python 3 | Application logic, validation, and calculations |
-| Tkinter / ttk | Desktop screens, forms, buttons, and tables |
-| MySQL | Persistent application data |
-| `mysql-connector-python` | Python-to-MySQL connection and queries |
-| Matplotlib | Stock and monthly sales/profit-and-loss graphs |
+| Technology               | Use                                             |
+| ------------------------ | ----------------------------------------------- |
+| Python 3                 | Application logic, validation, and calculations |
+| Tkinter / ttk            | Desktop screens, forms, buttons, and tables     |
+| MySQL                    | Persistent application data                     |
+| `mysql-connector-python` | Python-to-MySQL connection and queries          |
+| Matplotlib               | Stock and monthly sales/profit-and-loss graphs  |
 
 ## Features
 
@@ -87,11 +87,22 @@ The main workflow is:
 ## Screenshots
 
 The project includes a small set of real captures from the running Tkinter
-application. 
+application. Additional UI screenshots can be added later once the remaining
+screens are exercised on a local Windows machine.
 
-The screenshots above are a mix of actual images and honest placeholders. Any
-pending entries should be captured locally on a Windows desktop before the
-repository is presented as a fully illustrated project.
+| Screen                   | Capture status                                          |
+| ------------------------ | ------------------------------------------------------- |
+| Welcome                  | `screenshots/welcome.png` — pending capture             |
+| Login                    | ![Login screen](screenshots/login.png)                  |
+| Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                 |
+| Medicine stock listing   | `screenshots/medicine-stock.png` — pending capture      |
+| Add/update medicine form | `screenshots/medicine-form.png` — pending capture       |
+| Employee management      | `screenshots/employee-management.png` — pending capture |
+| Customer management      | `screenshots/cust entry.jpeg`                           |
+| Expired medicine listing | `screenshots/exp prods.jpeg` — pending capture          |
+| Generated bill/receipt   | `screenshots/receipt.png` — pending capture             |
+| Stock graph              | `screenshots/stock-graph.png` — pending capture         |
+| Sales/profit-loss graph  | `screenshots/sales-report.png` — pending capture        |
 
 ## Project structure
 
@@ -290,18 +301,18 @@ Avoid capturing other windows, desktop notifications, or credentials.
 The application is intentionally kept in one procedural Python file so its
 callbacks and database operations remain approachable for a school project.
 
-| Screen/module | Purpose |
-|---|---|
-| Welcome and login | Show the shop welcome screen and check configured login credentials. |
-| Main menu | Navigate to every management screen and graph; exit the menu back to login or exit the application. |
-| Stocks Entry | Add, update, delete, search, clear, and view medicine batches. |
-| Today's Expired Products | List every batch with an expiry date on or before today. |
-| Bills | Add one or more stock items, generate a receipt, save a bill, and update stock. |
-| Employee Entry / Information | Maintain and view the original employee fields. |
-| Customer Entry / Information | Maintain and view the original customer fields. |
-| Stock Graph | Graph current stock quantity grouped by medicine. |
-| Sales Graph | Graph monthly sales and estimated profit/loss from saved data. |
-| Expense Entry | Record, list, and delete expenses used in the monthly graph. |
+| Screen/module                | Purpose                                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| Welcome and login            | Show the shop welcome screen and check configured login credentials.                                |
+| Main menu                    | Navigate to every management screen and graph; exit the menu back to login or exit the application. |
+| Stocks Entry                 | Add, update, delete, search, clear, and view medicine batches.                                      |
+| Today's Expired Products     | List every batch with an expiry date on or before today.                                            |
+| Bills                        | Add one or more stock items, generate a receipt, save a bill, and update stock.                     |
+| Employee Entry / Information | Maintain and view the original employee fields.                                                     |
+| Customer Entry / Information | Maintain and view the original customer fields.                                                     |
+| Stock Graph                  | Graph current stock quantity grouped by medicine.                                                   |
+| Sales Graph                  | Graph monthly sales and estimated profit/loss from saved data.                                      |
+| Expense Entry                | Record, list, and delete expenses used in the monthly graph.                                        |
 
 Shared procedural helpers handle database connections, form validation, and
 table display. Database values are passed as query parameters rather than
@@ -311,14 +322,14 @@ inserted into SQL strings.
 
 All tables are created by `database.sql`.
 
-| Table | Contents |
-|---|---|
-| `stocks` | Batch number, medicine name, quantity, selling price, cost price, manufacturer details, manufacturing date, and expiry date. `BatchNo` is the primary key. |
-| `staffinfo` | Employee number, name, gender, age, designation, salary, Aadhaar number, and date of joining. `EmpNo` is the primary key. |
-| `customerinformation` | Customer ID, name, gender, age, phone, receipt number, doctor, address, and reason for visit. `ID` is the primary key. |
-| `bills` | Unique receipt number, bill date, optional matching customer, customer-name/phone snapshot, subtotal, GST rate/amount, and total. |
-| `bill_items` | Medicine batch, name snapshot, quantity, sale-price and cost-price snapshots, and line total for each saved bill. Each item references a bill and stock batch. |
-| `expenses` | Expense date, category, amount, and description for the monthly profit/loss graph. |
+| Table                 | Contents                                                                                                                                                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `stocks`              | Batch number, medicine name, quantity, selling price, cost price, manufacturer details, manufacturing date, and expiry date. `BatchNo` is the primary key.     |
+| `staffinfo`           | Employee number, name, gender, age, designation, salary, Aadhaar number, and date of joining. `EmpNo` is the primary key.                                      |
+| `customerinformation` | Customer ID, name, gender, age, phone, receipt number, doctor, address, and reason for visit. `ID` is the primary key.                                         |
+| `bills`               | Unique receipt number, bill date, optional matching customer, customer-name/phone snapshot, subtotal, GST rate/amount, and total.                              |
+| `bill_items`          | Medicine batch, name snapshot, quantity, sale-price and cost-price snapshots, and line total for each saved bill. Each item references a bill and stock batch. |
+| `expenses`            | Expense date, category, amount, and description for the monthly profit/loss graph.                                                                             |
 
 The employee and customer column names preserve the original project naming,
 including `AdharNo` and `ReasonForVisit`. `billinfo` from the old script was
