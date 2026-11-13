@@ -149,37 +149,22 @@ application. Additional UI screenshots can be added later once the remaining
 
 screens are exercised on a local Windows machine.
 
-| Screen                   | Capture                                                     |
-
+| Screen                   | Capture                                                     |
 | ------------------------ | ----------------------------------------------------------- |
-
-| Welcome                  | `screenshots/welcome.png`                 |
-
-| Login                    | ![Login screen](screenshots/login.png)                      |
-
-| Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                     |
-
-| Medicine stock listing   | ![Medicine stock](screenshots/medicine-stock.png)           |
-
-| Add/update medicine form | ![Medicine form](screenshots/medicine-form.png)             |
-
-| Employee management      | ![Employee management](screenshots/employee-management.png) |
-
-| Customer entry           | ![Customer entry](screenshots/customer-entry.jpeg)          |
-
-| Customer information     | ![Customer information](screenshots/customer-info.jpeg)     |
-
-| Employee entry           | ![Employee entry](screenshots/employee-entry.jpeg)          |
-
-| Employee information     | ![Employee information](screenshots/employee-info.jpeg)     |
-
-| Expired medicine listing | ![Expired medicines](screenshots/expired-medicines.jpeg)    |
-
-| Generated bill/receipt   | ![Generated receipt](screenshots/receipt.png)               |
-
-| Stock graph              | ![Stock graph](screenshots/stock-graph.png)                 |
-
-| Sales/profit-loss graph  | ![Sales graph](screenshots/sales-graph.jpeg)                |
+| Welcome                  | `screenshots/welcome.png` — pending capture                 |
+| Login                    | ![Login screen](screenshots/login.png)                      |
+| Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                     |
+| Medicine stock listing   | ![Medicine stock](screenshots/medicine-stock.png)           |
+| Add/update medicine form | ![Medicine form](screenshots/medicine-form.png)             |
+| Employee management      | ![Employee management](screenshots/employee-management.png) |
+| Customer entry           | ![Customer entry](screenshots/customer-entry.jpeg)          |
+| Customer information     | ![Customer information](screenshots/customer-info.jpeg)     |
+| Employee entry           | ![Employee entry](screenshots/employee-entry.jpeg)          |
+| Employee information     | ![Employee information](screenshots/employee-info.jpeg)     |
+| Expired medicine listing | ![Expired medicines](screenshots/expired-medicines.jpeg)    |
+| Generated bill/receipt   | ![Generated receipt](screenshots/receipt.png)               |
+| Stock graph              | ![Stock graph](screenshots/stock-graph.png)                 |
+| Sales/profit-loss graph  | ![Sales graph](screenshots/sales-graph.jpeg)                |
 
 ## Project structure
 
