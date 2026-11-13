@@ -90,19 +90,22 @@ The project includes a small set of real captures from the running Tkinter
 application. Additional UI screenshots can be added later once the remaining
 screens are exercised on a local Windows machine.
 
-| Screen                   | Capture status                                          |
-| ------------------------ | ------------------------------------------------------- |
-| Welcome                  | `screenshots/welcome.png` — pending capture             |
-| Login                    | ![Login screen](screenshots/login.png)                  |
-| Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                 |
-| Medicine stock listing   | `screenshots/medicine-stock.png` — pending capture      |
-| Add/update medicine form | `screenshots/medicine-form.png` — pending capture       |
-| Employee management      | `screenshots/employee-management.png` — pending capture |
-| Customer management      | `screenshots/cust entry.jpeg`                           |
-| Expired medicine listing | `screenshots/exp prods.jpeg` — pending capture          |
-| Generated bill/receipt   | `screenshots/receipt.png` — pending capture             |
-| Stock graph              | `screenshots/stock-graph.png` — pending capture         |
-| Sales/profit-loss graph  | `screenshots/sales-report.png` — pending capture        |
+| Screen                   | Capture                                                     |
+| ------------------------ | ----------------------------------------------------------- |
+| Welcome                  | `screenshots/welcome.png` — pending capture                 |
+| Login                    | ![Login screen](screenshots/login.png)                      |
+| Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                     |
+| Medicine stock listing   | ![Medicine stock](screenshots/medicine-stock.png)           |
+| Add/update medicine form | ![Medicine form](screenshots/medicine-form.png)             |
+| Employee management      | ![Employee management](screenshots/employee-management.png) |
+| Customer entry           | ![Customer entry](screenshots/customer-entry.jpeg)          |
+| Customer information     | ![Customer information](screenshots/customer-info.jpeg)     |
+| Employee entry           | ![Employee entry](screenshots/employee-entry.jpeg)          |
+| Employee information     | ![Employee information](screenshots/employee-info.jpeg)     |
+| Expired medicine listing | ![Expired medicines](screenshots/expired-medicines.jpeg)    |
+| Generated bill/receipt   | ![Generated receipt](screenshots/receipt.png)               |
+| Stock graph              | ![Stock graph](screenshots/stock-graph.png)                 |
+| Sales/profit-loss graph  | ![Sales graph](screenshots/sales-graph.jpeg)                |
 
 ## Project structure
 
