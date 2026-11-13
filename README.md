@@ -151,7 +151,6 @@ screens are exercised on a local Windows machine.
 
 | Screen                   | Capture                                                     |
 | ------------------------ | ----------------------------------------------------------- |
-| Welcome                  | `screenshots/welcome.png` — pending capture                 |
 | Login                    | ![Login screen](screenshots/login.png)                      |
 | Main dashboard/menu      | ![Dashboard](screenshots/dashboard.png)                     |
 | Medicine stock listing   | ![Medicine stock](screenshots/medicine-stock.png)           |
